@@ -1,0 +1,47 @@
+:root {
+  --default50: #FAFAFA;
+  --default100: #F4F4F5;
+  --default200: #E4E4E7;
+  --default300: #D4D4D8;
+  --default400: #A1A1AA;
+  --default500: #71717A;
+  --default600: #52525B;
+  --default700: #3F3F46;
+  --default800: #27272A;
+  --default900: #18181B;
+}
+
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--default50);
+  padding: 16px;
+}
+
+.dashboardLinkContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.dashboardLink {
+  padding: 16px;
+  flex-basis: 200px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  transition: all 100ms;
+  border-radius: 2px;
+  background-color: var(--default100);
+  outline: 1px solid var(--default200);
+}
+
+.dashboardLink:hover {
+  outline: 1px solid var(--default300);
+  background-color: var(--default200);
+  scale: 103%;
+}
