@@ -37,3 +37,7 @@ declare module "*.svg" {
   const src: string;
   export default src;
 }
+
+declare module "@kronox/ui"{
+  const alertFromKronoxUI: () => void;
+}

@@ -8,9 +8,5 @@ export const pages:DashboardLinkInterface[] = [
   {
     href:"operations",
     pageName:"Operaciones"
-  },
-  {
-    href:"",
-    pageName:"Home"
   }
 ];
